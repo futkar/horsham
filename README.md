@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 upgrade project
 ========
 
@@ -28,3 +29,6 @@ The CRX host and port can be specified on the command line with:
 mvn -Dcrx.host=otherhost -Dcrx.port=5502 <goals>
 
 
+=======
+# pm
+>>>>>>> 4eb5ab29c403131a4c22311fc397b4ba1347972c
