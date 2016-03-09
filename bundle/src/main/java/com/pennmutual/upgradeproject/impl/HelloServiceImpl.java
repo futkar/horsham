@@ -19,9 +19,12 @@ public class HelloServiceImpl implements HelloService {
     
     @Reference
     private SlingRepository repository;
-
-    public String getRepositoryName() {
+	private String temp;
+    
+public String getRepositoryName() {
+	
         return repository.getDescriptor(Repository.REP_NAME_DESC);
+
     }
 
 }
